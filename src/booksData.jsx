@@ -28,7 +28,24 @@ const books = [
     coverImage:
       "https://images-na.ssl-images-amazon.com/images/I/81af+MCATTL.jpg",
   },
-  // Add more books as needed
+  {
+    id: 4,
+    title: "Pride and Prejudice",
+    author: "Jane Austen",
+    description:
+      "A romantic novel that charts the emotional development of the protagonist, Elizabeth Bennet.",
+    coverImage:
+      "https://images-na.ssl-images-amazon.com/images/I/81z4HnJlTjL.jpg",
+  },
+  {
+    id: 5,
+    title: "Moby-Dick",
+    author: "Herman Melville",
+    description:
+      "A novel about the voyage of the whaling ship Pequod and its captain, Ahab, who is obsessed with revenge on Moby Dick.",
+    coverImage:
+      "https://images-na.ssl-images-amazon.com/images/I/81MZPq9xhvL.jpg",
+  }
 ];
 
 export default books;
